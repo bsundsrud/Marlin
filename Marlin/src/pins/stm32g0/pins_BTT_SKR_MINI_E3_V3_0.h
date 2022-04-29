@@ -172,7 +172,7 @@
 
   #error "DWIN_CREALITY_LCD requires a custom cable, see diagram above this line. Comment out this line to continue."
 
-  #define BEEPER_PIN                 EXP1_09_PIN
+  #define BEEPER_PIN                 -1
   #define BTN_EN1                    EXP1_03_PIN
   #define BTN_EN2                           PB8
   #define BTN_ENC                           PB5
@@ -181,7 +181,7 @@
 
   #if ENABLED(CR10_STOCKDISPLAY)
 
-    #define BEEPER_PIN                      PB5
+    #define BEEPER_PIN                      -1
     #define BTN_ENC                  EXP1_09_PIN
 
     #define BTN_EN1                         PA9
